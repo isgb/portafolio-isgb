@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -10,6 +12,19 @@ p {
     color: #fff;
     font-size: 1.1em;
     line-height: 1.5em;
+}
+
+nav{
+    /* height: 90px; */
+    backdrop-filter: blur(20px);
+    color:#FFF
+}
+
+.logo{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 2em;
 }
 
 .profile-main-container, 
@@ -62,6 +77,17 @@ p {
     text-align: center;
 }
 
+.card > img{
+    margin: 0 auto;
+    width: 80%;
+    padding: 5%;
+    margin-top: 8%;
+}
+
+.card-title{
+    text-align: center;
+}
+
 .profile-main-contact {
     /* padding: 10px 60px 0%; */
     background-color: #052333;
@@ -72,7 +98,7 @@ p {
 .profile-languages-info,
 .profile-projects-info,
 .profile-contact-info {
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .profile-languages-title,
@@ -98,6 +124,42 @@ p {
     margin-top: 1%;
 }
 
+.profile-contact-info{
+    margin-bottom: 5%;
+}
+
 .copyrights{
     margin: 10% 0;
 }
+
+section.btns-contact{
+    margin: auto 30px;
+}
+
+.btns-contact > div > a{
+    width: 100%;
+    padding: 6%;
+    text-align: center;
+    background: #07112d;
+}
+
+.btns-contact > div > a:hover{
+    background: #30b2fe;
+}
+
+.btns-contact > div > a{
+    background: #07112d;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.btns-contact > div > a > ion-icon{
+    font-size: 2.2em;
+}
+
