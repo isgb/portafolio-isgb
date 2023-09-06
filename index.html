@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Isaías S. Gaona B.</title>
-    <link rel="stylesheet" href="css/styles.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="css/font/flaticon.css">
+    <link rel="stylesheet" href="css/styles.css" />
 </head>
 
 <body>
@@ -16,9 +16,9 @@
     <div class="container-fluid">
 
         <div class="row">
-            <nav class="position-fixed navbar navbar-expand-lg z-3">
+            <nav class="position-fixed navbar navbar-expand-lg  z-3">
                 <div class="container-fluid ">
-                    <a class="navbar-brand logo" href="#">Mi Portafolio</a>
+                    <a class="navbar-brand logo text-white" href="#">Mi Portafolio</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -27,16 +27,16 @@
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item mx-md-auto mx-auto">
-                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                                <a class="nav-link active text-white fs-4 fw-bold" aria-current="page" href="#inicio">Inicio</a>
                             </li>
                             <li class="nav-item mx-md-auto mx-auto">
-                                <a class="nav-link" href="#">Servicios</a>
+                                <a class="nav-link text-white fs-4 fw-bold" href="#tecnologias">Tecnologías</a>
                             </li>
                             <li class="nav-item mx-md-auto mx-auto">
-                                <a class="nav-link" href="#">Portafolio</a>
+                                <a class="nav-link text-white fs-4 fw-bold" href="#portafolio">Portafolio</a>
                             </li>
                             <li class="nav-item mx-md-auto mx-auto">
-                                <a class="nav-link" href="#">Contacto</a>
+                                <a class="nav-link text-white fs-4 fw-bold" href="#contacto">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -45,13 +45,13 @@
         </div>
 
         <div class="row">
-            <div class="profile-main-container">
+            <div class="profile-main-container" id="inicio">
                 <div class="profile-container">
                     <div>
                         <img src="assets/img/profile-pic.jpg" alt="">
                     </div>
                     <section>
-                        <h2>Hola, mi nombre es Isaías Salvador!</h2>
+                        <h2 class="text-center fs-1">Hola,mi nombre es Isaías Salvador!</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa placeat autem neque nihil
                             eveniet pariatur veritatis quos sed nisi non? Perspiciatis tempore suscipit quae odio ullam
                             magnam, saepe accusamus quasi.</p>
@@ -61,16 +61,17 @@
         </div>
 
         <div class="row">
-            <section class="profile-main-languages">
-                <div class="profile-languages">
+            <section class="profile-main-tecnologies" id="tecnologias">
+                <div class="profile-tecnologies">
 
-                    <section class="profile-languages-info">
-                        <h2 class="profile-languages-title">Programación</h2>
-                        <p class="profile-languages-text">Principales lenguajes de programación en los que estoy enfocado para trabajar en proyectos.</p>
+                    <section class="profile-tecnologies-info">
+                        <h2 class="profile-tecnologies-title">Tecnologías</h2>
+                        <p class="profile-tecnologies-text">Principales lenguajes de programación en los que estoy enfocado para trabajar en proyectos.</p>
                     </section>
 
-                    <div class="row d-flex justify-content-around">
-                        <div class="card my-3" style="width: 18rem;">
+                    <section class="row d-flex justify-content-around profile-container-cards-tecnologies">
+
+                        <div class="card my-3 mx-3" style="width: 18rem;">
                             <img src="./assets/img/HTML5.svg" class="card-img-top" alt="HTML5">
                             <div class="card-body">
 
@@ -79,8 +80,8 @@
                             </div>
                         </div>
 
-                        <div class="card my-3" style="width: 18rem;">
-                            <img src="./assets/img/HTML5.svg" class="card-img-top" alt="HTML5">
+                        <div class="card my-3 mx-3" style="width: 18rem;">
+                            <img src="./assets/img/Javascript.svg" class="card-img-top" alt="HTML5">
                             <div class="card-body">
 
                                 <h5 class="card-title">Javascript</h5>
@@ -88,8 +89,8 @@
                             </div>
                         </div>
 
-                        <div class="card my-3" style="width: 18rem;">
-                            <img src="./assets/img/HTML5.svg" class="card-img-top" alt="HTML5">
+                        <div class="card my-3 mx-3" style="width: 18rem;">
+                            <img src="./assets/img/CSS3.svg" class="card-img-top" alt="HTML5">
                             <div class="card-body">
 
                                 <h5 class="card-title">CSS3</h5>
@@ -97,25 +98,27 @@
                             </div>
                         </div>
 
-                        <div class="card my-3" style="width: 18rem;">
-                            <img src="./assets/img/HTML5.svg" class="card-img-top" alt="HTML5">
+                        <div class="card my-3 mx-3" style="width: 18rem;">
+                            <img src="./assets/img/React.svg" class="card-img-top" alt="HTML5">
                             <div class="card-body">
 
                                 <h5 class="card-title">React JS / React Native</h5>
 
                             </div>
                         </div>
-                    </div>
+
+                    </section>
+
                 </div>
             </section>
         </div>
 
         <div class="row">
-            <section class="profile-main-projects">
+            <section class="profile-main-projects" id="portafolio">
                 <div class="profile-projects">
 
                     <section class="profile-projects-info">
-                        <h2 class="profile-projects-title">Proyectos</h2>
+                        <h2 class="profile-projects-title">Portafolio</h2>
                     </section>
 
                     <div class="row d-flex justify-content-around">
@@ -160,7 +163,7 @@
         </div>
 
         <div class="row">
-            <section class="profile-main-contact">
+            <section class="profile-main-contact" id="contacto">
                 <div class="profile-contact">
 
                     <section class="profile-contact-info">

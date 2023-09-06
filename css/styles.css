@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto+Slab:400,700|Roboto:400,500,700,900&display=swap');
 
 *{
+    font-family: 'Roboto Mono', monospace;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
 }
 
 p {
@@ -12,12 +12,6 @@ p {
     color: #fff;
     font-size: 1.1em;
     line-height: 1.5em;
-}
-
-nav{
-    /* height: 90px; */
-    backdrop-filter: blur(20px);
-    color:#FFF
 }
 
 .logo{
@@ -28,7 +22,7 @@ nav{
 }
 
 .profile-main-container, 
-.profile-main-languages,
+.profile-main-tecnologies,
 .profile-main-contact{
     /* padding: 10px 60px 0%; */
     background-color: #052333;
@@ -39,6 +33,10 @@ nav{
 .profile-container-footer{
     background-color: #052333;
     color: #fff;
+}
+
+.profile-container-cards-tecnologies{
+    margin: 0 15px;
 }
 
 .profile-main-projects{
@@ -95,14 +93,14 @@ nav{
     min-height: 60vh;
 }
 
-.profile-languages-info,
+.profile-tecnologies-info,
 .profile-projects-info,
 .profile-contact-info {
     margin-bottom: 5%;
 }
 
-.profile-languages-title,
-.profile-languages-info,
+.profile-tecnologies-title,
+.profile-tecnologies-info,
 .profile-projects-title,
 .profile-projects-info,
 .profile-contact-title,
@@ -110,14 +108,14 @@ nav{
     text-align: center;
 }
 
-.profile-languages-title,
+.profile-tecnologies-title,
 .profile-projects-title,
 .profile-contact-title{
     font-size: 3em;
     margin-top: 10%;
 }
 
-.profile-languages-text,
+.profile-tecnologies-text,
 .profile-projects-text,
 .profile-contact-text{
     margin: 0 15%;
@@ -163,3 +161,19 @@ section.btns-contact{
     font-size: 2.2em;
 }
 
+nav {
+    backdrop-filter: blur(20px);
+}
+
+.navbar > a{
+    color:#FFF
+}
+
+.navbar-toggler {
+    background-color: #FFF;
+}
+
+.card{
+    background-color: #164c69;
+    color: #fff;
+}
